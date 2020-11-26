@@ -8,6 +8,14 @@ body{
     /* font-family: anonymous; */
 }
 
+.fasd {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1333px;
+top: 25px;
+}
+
 .fas {
 position: absolute;
 width: 30px;
@@ -42,6 +50,7 @@ width: 269px;
 height: 47px;
 left: 572px;
 font-family:'Noto Serif', serif;
+font-style: italic;
 font-style: normal;
 font-weight: normal;
 font-size: 36px;
@@ -56,6 +65,7 @@ color: #000000;
 h2 {
 position: absolute;
 font-family:'Noto Serif', serif;
+font-style: italic;
 width: 152px;
 height: 31px;
 left: 1198px;
@@ -64,26 +74,11 @@ background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)
 }
 
 #logo {
-/* Ellipse 1 */
 position: absolute;
 width: 104px;
-height: 104px;
+height: 80px;
 left: 55px;
 top: 33px;
-background: #000000;
-border-radius: 50%;
-position: absolute;
-width: 89px;
-height: 40px;
-left: 64px;
-top: 64px;
-font-family: 'Noto Sans JP', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 130%;
-text-align: center;
-color: #FFFFFF;
 }
 
 .fab {
@@ -122,6 +117,31 @@ color: #000000;
 word-spacing: 30px;
 }
 
+.search {
+position: absolute;
+width: 476px;
+height: 122px;
+left: 500px;
+top: 1200px;
+}
+
+
+
+#photolarge {
+position: absolute;
+width: 1440px;
+height: 550px;
+left: 0px;
+top: 190px;
+}
+
+.home3 {
+  position: absolute;
+  top: 1365px;
+  width: 1413px;
+  height: 1632px;
+}
+
 #photolarge {
 position: absolute;
 width: 1440px;
@@ -134,6 +154,7 @@ top: 190px;
 h3 {
 position: absolute;
 font-family:'Noto Serif', serif;
+font-style: italic;
 width: 832px;
 height: 201px;
 left: 290px;
@@ -253,6 +274,7 @@ h4 {
 text-align: center;
 /*position: absolute;*/
 font-family:'Noto Serif', serif;
+font-style: italic;
 font-size: 30px;
 top: 0px;
 padding-left: 20px;
@@ -344,12 +366,14 @@ font-family:'Noto Serif', serif;
 h4 {
   top: 270px;
   font-family:'Noto Serif', serif;
+  font-style: italic;
 }
 
 h5 {
   top: 800px;
   font-family:'Noto Serif', serif;
   font-size: 35px;
+  font-style: italic;
 }
 
 .fin {
@@ -372,4 +396,12 @@ top: 1150px;
 background: #F7F7F7;
 font-family:'Noto Serif', serif;
 text-align: center;
+}
+
+.social {
+  position: absolute;
+width: 850px;
+height: 620px;
+left: 250px;
+top: 3150px;
 }
